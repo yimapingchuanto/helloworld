@@ -13,8 +13,8 @@ import java.util.Map;
 /**
  * Created by machuan on 2016/11/30.
  */
-public class IndexTestDataWorker {
-    public static Logger LOG = Logger.getLogger(IndexTestDataWorker.class);
+public class ReindexDataWorker {
+    public static Logger LOG = Logger.getLogger(ReindexDataWorker.class);
 
 
     //if id not exists, auto generate id

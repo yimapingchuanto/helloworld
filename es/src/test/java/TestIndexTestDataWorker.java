@@ -2,7 +2,7 @@ import junit.framework.TestCase;
 import org.elasticsearch.client.Client;
 import utils.driver.EsClient;
 import utils.driver.EsConfigConsts;
-import worker.IndexTestDataWorker;
+import worker.ReindexDataWorker;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -31,7 +31,7 @@ public class TestIndexTestDataWorker extends TestCase {
         source.put("clickIndex", 3);
         source.put("word", "联想笔记本300-15");
 
-        IndexTestDataWorker worker = new IndexTestDataWorker();
+        ReindexDataWorker worker = new ReindexDataWorker();
         long start = System.currentTimeMillis();
         try {
             worker.bulkIndex(client, testIndex, testType, source, 1000);

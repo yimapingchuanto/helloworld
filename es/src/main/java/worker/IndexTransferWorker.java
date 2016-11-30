@@ -51,6 +51,14 @@ public class IndexTransferWorker {
         scroll(originClient, targetClient, response, targetIndex, targetType);
     }
 
+    /**
+     *
+     * @param originClient
+     * @param targetClient
+     * @param response
+     * @param targetIndex
+     * @param targetType
+     */
     public void scroll(Client originClient, Client targetClient, SearchResponse response, String targetIndex, String targetType) {
         long startTime = System.currentTimeMillis();
         long totalQueryNum = response.getHits().getTotalHits();

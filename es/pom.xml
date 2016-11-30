@@ -119,8 +119,8 @@
                 </resources>
             </build>
             <properties>
-                <es.cluster>jiesi-205</es.cluster>
-                <es.ips>172.28.80.12:40105,172.28.80.24:40104,172.28.80.26:40104,172.28.80.28:40104</es.ips>
+                <es.cluster></es.cluster>
+                <es.ips></es.ips>
             </properties>
         </profile>
 

@@ -12,9 +12,10 @@ import java.util.Map;
 
 /**
  * Created by machuan on 2016/11/30.
+ * 批量插入ES。
  */
-public class ReindexDataWorker {
-    public static Logger LOG = Logger.getLogger(ReindexDataWorker.class);
+public class BulkIndexDataWorker {
+    public static Logger LOG = Logger.getLogger(BulkIndexDataWorker.class);
 
 
     //if id not exists, auto generate id

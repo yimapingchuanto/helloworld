@@ -61,7 +61,7 @@
                     <!--<configuration>-->
                     <!--<archive>-->
                     <!--<manifest>-->
-                    <!--<mainClass>EsClientUse.example.utils.TTLWorker</mainClass>-->
+                    <!--<mainClass>EsClientUse.example.utils.DeleteIndexDocsWorker</mainClass>-->
                     <!--</manifest>-->
                     <!--</archive>-->
                     <!--<descriptorRefs>-->
